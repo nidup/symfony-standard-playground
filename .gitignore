@@ -3,3 +3,4 @@ composer.lock
 app/config/parameters.yml
 app/cache
 bin
+app/logs
