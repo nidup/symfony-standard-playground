@@ -11,6 +11,13 @@
 
     <p>Congratulations! You have successfully installed a new Symfony application.</p>
 
+    <ul>
+        {% for product in products %}
+        <li>{{product.sku}}</li>
+        {% endfor %}
+    </ul>
+
+
     <div class="symfony-blocks-welcome">
         <div class="block-quick-tour">
             <div class="illustration">
